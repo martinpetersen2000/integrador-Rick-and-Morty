@@ -1,0 +1,46 @@
+.contenedor {
+  background-color: rgba(5, 5, 5, 0.757);
+  border-radius: 8px;
+  padding: 0px;
+  width: 99%;
+  margin: 4px;
+  border: 3px solid #0a0a0a;
+  display: inline-block;
+}
+.boton {
+  background-color: rgb(218, 211, 78);
+  padding: 5px;
+  border-radius: 4px;
+  font-family: monospace;
+  color: rgb(0, 0, 0);
+  transition: background-color 0.3s, color 0.3s;
+  margin: 15px;
+  font-weight: 550;
+}
+
+.boton:hover {
+  background-color: #2980b9;
+  color: #eee;
+}
+
+.input {
+  width: 500px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.input::placeholder {
+  color: rgb(86, 89, 86);
+  font-style: italic;
+}
+
+.botonAbout {
+  background-color: rgb(218, 78, 78);
+  padding: 5px;
+  border-radius: 4px;
+  font-family: monospace;
+  color: rgb(0, 0, 0);
+  transition: background-color 0.3s, color 0.3s;
+  margin: 15px;
+  font-weight: 550;
+}

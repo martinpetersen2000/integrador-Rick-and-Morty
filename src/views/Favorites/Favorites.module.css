@@ -1,0 +1,15 @@
+.select {
+  display: block;
+}
+
+.selects {
+  background-color: black;
+  color: yellow;
+  font-size: larger;
+  margin: 1px;
+  border: black;
+  border-radius: 4px;
+  padding: 5px;
+  font-family: monospace;
+  font-weight: 550;
+}

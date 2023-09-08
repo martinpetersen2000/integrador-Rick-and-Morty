@@ -1,0 +1,20 @@
+.datos {
+  background-size: cover;
+  height: 100vh;
+  width: fit-content;
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+  font-size: x-large;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px black solid;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: rgba(5, 5, 5, 0.757);
+  margin-top: 30px;
+}
+
+.imagen {
+  border-radius: 50%;
+}

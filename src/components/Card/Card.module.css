@@ -1,0 +1,86 @@
+.tarjeta {
+  font-family: monospace;
+  border-radius: 8px;
+  color: white;
+  display: inline-block;
+  border: 5px solid #0a0a0a;
+  padding: 10px; /* Aplicará 10px de relleno en todas las direcciones */
+  width: 300px; /* El ancho del elemento será de 300 píxeles */
+  margin: 10px;
+  background-color: rgba(5, 5, 5, 0.757);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: -5px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.1);
+}
+
+.carta {
+  position: relative;
+}
+.nombre {
+  font-family: sans-serif;
+  position: absolute;
+  top: 80%;
+  left: 20px;
+  background-color: yellow;
+  font-size: small;
+  color: black;
+  border-radius: 10px;
+  padding: 8px;
+  text-shadow: none;
+  box-shadow: -4px 4px 5px rgba(0, 0, 0, 4);
+}
+
+.boton2 {
+  font-size: medium;
+  position: absolute;
+  top: 5;
+  left: 0;
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  border-radius: 5px;
+}
+
+.boton {
+  font-size: medium;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px;
+}
+.boton:hover {
+  background-color: red;
+  color: #eee;
+}
+.imagenes {
+  border-radius: 8px;
+}
+
+.infoDeAbajo {
+  background-color: rgb(127, 21, 21, 0.757);
+  border-radius: 8px;
+}
+.especie {
+  margin-left: 30px;
+  margin-right: 50px;
+}
+
+.genero {
+  margin-left: 50px;
+  margin-right: 30px;
+}
+
+/*position: absolute; */
+/* /* top: 50%; Ajusta la posición vertical del texto /
+  left: 50%; / Ajusta la posición horizontal del texto /
+  transform: translate(-50%, -50%); / Centra el texto /
+  background-color: rgba(0, 0, 0, 0.7); / Fondo semitransparente para hacer que el texto sea legible /
+  color: white; / Color del texto /
+  padding: 10px; / Espacio interior alrededor del texto /
+  z-index: 1; / Asegura que el texto esté por encima de la imagen */

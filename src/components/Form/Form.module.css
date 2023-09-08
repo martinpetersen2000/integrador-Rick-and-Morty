@@ -1,0 +1,47 @@
+.formulario {
+  font-family: monospace;
+  border-radius: 8px;
+  color: white;
+  display: inline-block;
+  border: 3px solid #7b7b7b;
+  padding: 10px; /* Aplicará 10px de relleno en todas las direcciones */
+  width: 500px; /* El ancho del elemento será de 300 píxeles */
+  margin-top: 90px;
+  background-color: rgb(5, 5, 5);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: -5px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.imagen {
+  max-width: 90%;
+  height: auto; /*el alto de la imagen*/
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.input {
+  margin: 10px;
+  /* width: 90%; */
+  height: 18px;
+}
+
+.label {
+  text-align: center;
+  font-size: 18px;
+}
+
+.boton {
+  background-color: rgb(194, 187, 6);
+  padding: 5px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  transition: background-color 0.3s, color 0.3s;
+  margin: 15px;
+}
+
+.span {
+  color: red;
+  font-size: large;
+}
